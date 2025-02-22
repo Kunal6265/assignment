@@ -12,8 +12,8 @@
 
 ### Clone the Repo and Install Dependencies
 * Make a directory in your home directory or similar and name it something useful (`mkdir ~/Repos`) and change to that directory (`cd ~/Repos`)
-* Run `git clone git@scm.platform.avalara.io:avatax-ux/avatax-customer-portal.git`. You should not be prompted for password.
-* Run `cd avatax-customer-portal` to change your present working directory to the project root
+* Run `git clone https://github.com/Kunal6265/assignment.git`. You should not be prompted for password.
+* Run `cd assignment` to change your present working directory to the project root
 
 ### Run the following command to install all necessary dependencies
 * `npm install`
