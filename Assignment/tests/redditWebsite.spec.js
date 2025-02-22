@@ -28,7 +28,7 @@ test('reddit post titles', {tag: '@reddit'}, async () => {
 
   const posts = await page.evaluate(() => {
     const posts = [];
-    for(let i = 40; i <= 45; i++) {
+    for(let i = 39; i <= 44; i++) {
       const postElement = document.querySelector(`shreddit-post[feedindex='${i}']`);
       const post = document.querySelector(`article [feedindex='${i}'] > [slot=title]`);
 
