@@ -13,6 +13,7 @@ import { defineConfig, devices } from '@playwright/test';
  * @see https://playwright.dev/docs/test-configuration
  */
 export default defineConfig({
+  timeout: 3600000,
   testDir: './tests',
   /* Run tests in files in parallel */
   fullyParallel: false,
@@ -39,12 +40,9 @@ export default defineConfig({
     },
 
     yahooMailURL: 'https://login.yahoo.com/',
-    redditURL: 'https://www.reddit.com/r/learnprogramming/',
+    redditURL: 'https://www.reddit.com/',
   },
-    expect: {
-      timeout: 60000,
-  },
-
+  
   /* Configure projects for major browsers */
   projects: [
     {
